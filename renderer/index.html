@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cheatAI overlay</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="overlay-root">
+      <div id="pill">
+        <div id="chrome">
+          <div id="drag-area">cheatAI</div>
+          <div id="actions">
+            <button id="copy-btn" class="btn" aria-label="Copy answer">Copy</button>
+            <button id="record-btn" class="btn" aria-label="Record">Record</button>
+          </div>
+        </div>
+        <div id="content">
+          <div id="mic"><span class="dot"></span></div>
+          <div id="text">
+            <div id="status">Ready. Press Ctrl+Alt+Space to record.</div>
+            <div id="transcript"></div>
+          </div>
+          <div id="spinner" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+  </html>
+

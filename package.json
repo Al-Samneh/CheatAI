@@ -1,0 +1,19 @@
+{
+  "name": "cheatai-overlay",
+  "version": "0.1.0",
+  "description": "Cluely-like invisible overlay using Deepgram + OpenRouter DeepSeek",
+  "main": "main.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "electron .",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
+
